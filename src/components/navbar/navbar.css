@@ -1,0 +1,15 @@
+.navWrapper {
+  background-color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  height: 50px;
+  align-content: center;
+}
+
+.nav h2 {
+  margin-left: 10px;
+  text-align: center;
+}

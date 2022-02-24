@@ -1,0 +1,30 @@
+.captionWrapper {
+  display: flex;
+  flex: 1;
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+.caption {
+  flex: 3;
+  height: calc(100vh - 35px);
+  margin: 15px;
+  background-color: blueviolet;
+  justify-content: space-around;
+}
+
+/* Media Queries
+======================================== */
+@media screen and (max-width: 400px) {
+  .captionWrapper {
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  .caption {
+    flex: 1;
+    margin: 15px;
+    height: 50vh;
+    justify-content: space-around;
+  }
+}

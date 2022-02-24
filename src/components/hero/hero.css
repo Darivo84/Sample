@@ -1,0 +1,32 @@
+.heroWrapper {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #cecece;
+}
+
+.leftSide {
+  flex: 2;
+  background-color: red;
+}
+.rightSide {
+  flex: 2;
+  background-color: blue;
+}
+
+/* Media Queries
+======================================== */
+@media screen and (max-width: 400px) {
+  .heroWrapper {
+    flex-direction: column;
+  }
+
+  .leftSide {
+    flex: 1;
+  }
+  
+  .rightSide {
+    flex: 1;
+  }
+
+}
